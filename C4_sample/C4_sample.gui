@@ -1,0 +1,70 @@
+ENVT0100,LM:2026/10/06 02:16:20:311,DS:0000001316,CS:12104,MA:C8-7F-54-16-AF-DA,EI:           
+sHelpFile=""
+nStartupForm=0
+nFormCount=1
+Form1 {
+	nHeight=300
+	nLeft=0
+	sName="Button"
+	sText="Button"
+	nTop=0
+	nWidth=300
+	sClosed="(None)"
+	sLoad="(None)"
+	sResize="(None)"
+	nControlCount=2
+	Control1 {
+		nControlType=1
+		sControlTypeName="Button"
+		nChildIndex=1
+		sBackColor="Control"
+		nBackColorMode=0
+		bEnabled=True
+		nEventTaskType=0
+		sFontName="Microsoft Sans Serif"
+		rFontSize=8.25
+		bFontBold=False
+		bFontItalic=False
+		sForeColor="ControlText"
+		nHeight=23
+		sImage=""
+		nImageAlign=32
+		nLeft=34
+		sName="Button1"
+		nTabIndex=0
+		sText="Go P1"
+		nTextAlign=32
+		sToolTipText=""
+		nTop=25
+		bVisible=True
+		nWidth=75
+		sClick="Button_Button1_Click"
+	}
+	Control2 {
+		nControlType=1
+		sControlTypeName="Button"
+		nChildIndex=0
+		sBackColor="Control"
+		nBackColorMode=0
+		bEnabled=True
+		nEventTaskType=0
+		sFontName="Microsoft Sans Serif"
+		rFontSize=8.25
+		bFontBold=False
+		bFontItalic=False
+		sForeColor="ControlText"
+		nHeight=23
+		sImage=""
+		nImageAlign=32
+		nLeft=150
+		sName="Button2"
+		nTabIndex=1
+		sText="GoSomewhere"
+		nTextAlign=32
+		sToolTipText=""
+		nTop=27
+		bVisible=True
+		nWidth=75
+		sClick="Button_Button2_Click"
+	}
+}
